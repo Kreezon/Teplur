@@ -76,6 +76,10 @@ A web-based application to distinguish between AI-generated and human-written te
 - **Perplexity Score**: 25.84
 - **Prediction**: AI-Generated
 - **Confidence**: 92.3%
+- <p align="center">
+  <img src="images/result.png" width="500"/>
+</p>
+
 
 ---
 
