@@ -78,7 +78,9 @@ A web-based application to distinguish between AI-generated and human-written te
 - **Confidence**: 92.3%
 - <p align="center">
   <img src="https://github.com/Kreezon/Teplur/blob/main/Evaluation%20matrix.jpg" width="500"/>
-  <img src="" width="500"/>
+
+   
+  <img src="https://github.com/Kreezon/Teplur/blob/main/Sample%20test.jpg" width="500"/>
 </p>
 
 
