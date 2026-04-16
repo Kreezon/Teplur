@@ -1,0 +1,25 @@
+streamlit==1.33.0
+
+# Core ML / Data
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# PyTorch (CPU version for Streamlit Cloud)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# NLP / Text (if you're using it)
+nltk==3.8.1
+spacy==3.7.4
+
+# File handling
+PyPDF2==3.0.1
+
+# Visualization (optional but common)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utilities
+requests==2.31.0
