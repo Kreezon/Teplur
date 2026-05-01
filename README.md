@@ -92,8 +92,4 @@ A web-based application to distinguish between AI-generated and human-written te
 - The model (`ai_detector_clf.pkl`) is saved after training for fast loading in the Streamlit app.
 - Ensure GPU is available for faster processing of GPT-2, though CPU fallback is implemented.
 
----
 
-## 📄 License
-
-MIT License
