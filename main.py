@@ -12,9 +12,12 @@ from tqdm import tqdm
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using device: {device}")
 
-# Load GPT-2 model and tokenizer
-model = GPT2LMHeadModel.from_pretrained('gpt2').to(device)
-tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+# # Load GPT-2 model and tokenizer
+# model = GPT2LMHeadModel.from_pretrained('gpt2').to(device)
+# tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+
+model = GPT2LMHeadModel.from_pretrained('distilgpt2').to(device)
+tokenizer = GPT2TokenizerFast.from_pretrained('distilgpt2')
 
 THRESHOLD = 0.5
 
